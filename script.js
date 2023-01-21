@@ -47,7 +47,6 @@ function verifyInput() {
   else {
     return newPassword;
   }
-  
 }
 
 function randomPassword () {
