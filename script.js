@@ -47,6 +47,7 @@ function verifyInput() {
   else {
     return newPassword;
   }
+  
 }
 
 function randomPassword () {
@@ -63,7 +64,7 @@ function randomPassword () {
       let randomPassword = Math.floor( Math.random() * randomChar.length );
       generatedPassword += randomChar[randomPassword];
     } 
-    
+
     return generatedPassword;
   }
 }
