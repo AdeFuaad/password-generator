@@ -8,16 +8,12 @@ const numberChar = "0123456789";
 const specialChar = '!"#$%&()*+,-./:;<=>?@[\]^_`{|}~';
 
 function lengthError() {
-
   alert("Password length must be more than 8 but less than 128");
-
 }
 
 function charError() {
-
   alert("You must select atleast one of the characters to generate a password");
   return "Select at least one of the criterias";
-  
 }
 
 function verifyInput() {
