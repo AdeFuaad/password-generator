@@ -50,7 +50,7 @@ function verifyInput() {
 }
 
 function randomPassword () {
-  
+
   let passwordLength = parseInt( prompt("Please enter the number of characters you want for you new password. \nIt must be more than 8 but less than 128.") );
 
   if (passwordLength < 8 || passwordLength > 128) {
@@ -67,6 +67,7 @@ function randomPassword () {
 
     return generatedPassword;
   }
+  
 }
 
 // Write password to the #password input
