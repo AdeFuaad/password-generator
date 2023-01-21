@@ -66,7 +66,6 @@ function randomPassword () {
 
     return generatedPassword;
   }
-
 }
 
 // Write password to the #password input
