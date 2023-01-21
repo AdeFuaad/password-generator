@@ -63,7 +63,6 @@ function randomPassword () {
       let randomPassword = Math.floor( Math.random() * randomChar.length );
       generatedPassword += randomChar[randomPassword];
     }
-
     return generatedPassword;
   }
 }
